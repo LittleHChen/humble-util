@@ -10,11 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/LittleHChen/humble-util.git"
   },
-  "keywords": [],
+  "keywords": [
+    "javascript",
+    "utils"
+  ],
   "author": "LittleHChen",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LittleHChen/humble-util/issues"
   },
-  "homepage": "https://github.com/LittleHChen/humble-util#readme"
+  "homepage": "https://github.com/LittleHChen/humble-util#readme",
+  "devDependencies": {
+    "rollup": "^2.52.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.3.4"
+  }
 }
